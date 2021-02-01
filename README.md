@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning ***Java for Web Applications***
 
-- 👯 I’m looking for a good coding team who can help me to code better.
+- 👯 I’m looking for a ***good coding team who can help me to code better***.
 
 - 💬 Ask me about **Java Programs for beginners**
 
