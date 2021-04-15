@@ -8,7 +8,7 @@
 
 - 👯 I’m looking for a ***good coding team who can help me to code better***.
 
-- 💬 Ask me about **Java Programs for beginners**
+- 💬 Ask me about **Java Programming Language**
 
 - 📫 How to reach me **naveengali80@gmail.com**
 
