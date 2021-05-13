@@ -1,7 +1,6 @@
 <h1 align="center">Hola 👋, I'm NaveenGali</h1>
 <h3 align="center">Currently Looking for Good Coding Team to Code Java and Webapplications</h3>
 
-
 - 🔭 I’m currently working on Coding java in its Best way.
 
 - 🌱 I’m currently learning ***Java for Web Applications***
