@@ -25,6 +25,11 @@
   <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=NaveenGali11&show_icons=true&locale=en&layout=compact" alt="naveengali11" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=NaveenGali11&show_icons=true&locale=en" alt="naveengali11" /></p>
+
+<p>
+  Member of <a href="https://github.com/TeamUniques" target="_blank">Team Uniques</a>
+ <img src="https://avatars.githubusercontent.com/u/83490695?s=400&u=f264452f62be1808ae76daad4302602f2a3687e0&v=4" alt="Team Uniques Logo" width="60" height="60">
+</p>
   
   <p>
      Do follow our Community on <a href="https://skillenza.com/communities/skill_code_breaker">CodeBreakers</a>
