@@ -23,7 +23,8 @@
   <a href="https://www.jetbrains.com/" target ="_blank"><img src="https://www.vectorlogo.zone/logos/jetbrains/jetbrains-icon.svg" alt="jetbrains" width = "40" height = "40"></a> <a href="https://www.jetbrains.com/idea/" target ="_blank"><img src="https://github.com/gilbarbara/logos/blob/master/logos/intellij-idea.svg" alt="Intellij IDEA" width = "40" height = "40"></a></p>
   
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NaveenGali11&theme=radical)](https://github.com/NaveenGali11/github-readme-stats)
-
+  
+  ![Visitor Count](https://profile-counter.glitch.me/{NaveenGali11}/count.svg)
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=NaveenGali11&show_icons=true&locale=en&theme=cobalt" alt="naveengali11" /></p>
 
