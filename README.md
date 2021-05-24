@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on Coding java in its Best way.
 
-- 🌱 I’m currently learning ***Java for Web Applications***
+- 🌱 I’m currently learning ***Java for Web Applications and React for better programming***
 
 - 👯 I’m looking for a ***good coding team who can help me to code better***.
 
