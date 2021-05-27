@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning ***Java for Web Applications and React for better programming***
 
-- 👯 I’m looking for a ***good coding team who can help me to code better***.
+- 👯 I’m looking for a ***founder of <a href="https://skillenza.com/communities/skill_code_breaker" target="blank">CodeBreakers</a> Community and <a href="https://github.com/TeamUniques">Team Uniques<a/>***.
 
 - 💬 Ask me about **Java Programming Language**
 
