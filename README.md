@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, I'm NaveenGali</h1>
-<h3 align="center">Currently working as Web development Intern at <a href="http://hcroots.org/index.html">H.C. Roots</a></h3>
+<h3 align="center">Currently working as Backend development Intern at <a href="http://hcroots.org/index.html">H.C. Roots</a></h3>
 <h3 align="center">Find More about me at my <a href="http://naveengali.tech/">Portfolio</a></h3>
 
 - 🔭 I’m currently working on Coding java in its Best way.
