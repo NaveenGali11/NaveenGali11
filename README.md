@@ -11,7 +11,7 @@ Currently Searching resources to become ***Mern Stack Developer before 2022***
 
 - 👯 I’m looking for a ***founder of <a href="https://skillenza.com/communities/skill_code_breaker" target="blank">CodeBreakers</a> Community and <a href="https://github.com/TeamUniques">Team Uniques<a/>***.
 
-- 💬 Ask me about **Java Programming Language**
+- 💬 Ask me about ***Java Programming***
 
 - 📫 How to reach me **naveengali80@gmail.com**
 
