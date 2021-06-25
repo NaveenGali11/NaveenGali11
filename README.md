@@ -35,6 +35,7 @@ Currently Searching resources to become ***Mern Stack Developer before 2022 || J
   Member of <a href="https://github.com/TeamUniques" target="_blank">Team Uniques</a>
  <img src="https://avatars.githubusercontent.com/u/83490695?s=400&u=f264452f62be1808ae76daad4302602f2a3687e0&v=4" alt="Team Uniques Logo" width="60" height="60">
 </p>
+  <p align="center">&nbsp;<img align="center" src= https://github-readme-streak-stats.herokuapp.com?user=NaveenGali11&theme=dracula&hide_border=true&ring=DD0000)](https://git.io/streak-stats /> </p>
 
 
   
