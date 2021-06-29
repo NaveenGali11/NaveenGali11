@@ -15,7 +15,7 @@ Currently Searching resources to become ***Mern Stack Developer before 2022 || J
 - 📫 How to reach me **naveengali80@gmail.com**
 
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me on social media handles :</h3>
 <p align="left">
 <a href="www.linkedin.com/in/naveen-gali" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="NaveenGali" height="30" width="40" /></a>
 <a href="https://www.instagram.com/naveen_gali___/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="NaveenGali" height="30" width="40" /></a>
