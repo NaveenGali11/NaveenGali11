@@ -37,8 +37,9 @@ Currently Searching resources to become ***Mern Stack Developer before 2022 || J
  <img src="https://avatars.githubusercontent.com/u/83490695?s=400&u=f264452f62be1808ae76daad4302602f2a3687e0&v=4" alt="Team Uniques Logo" width="60" height="60">
   && <a href="https://github.com/White-Coders">WhiteCoders</a> <img src="https://avatars.githubusercontent.com/u/86219978?s=200&v=4" alt="WhiteCoders Logo" width="60" height="60">
 </p>
-  <p align="center">&nbsp;<img align="center" src= https://github-readme-streak-stats.herokuapp.com?user=NaveenGali11&theme=dracula&hide_border=true&ring=DD0000)](https://git.io/streak-stats /> </p>
-
+<!--   <p align="center">&nbsp;<img align="center" src= https://github-readme-streak-stats.herokuapp.com?user=NaveenGali11&theme=dracula&hide_border=true&ring=DD0000)](https://git.io/streak-stats /> </p> -->
+  
+<p align="center">&nbsp;<img align="center" src= https://github-readme-streak-stats.herokuapp.com?user=NaveenGali11&theme=dracula&hide_border=true&ring=DD0000)](https://git.io/streak-stats /> </p>
 
   
   <p>
