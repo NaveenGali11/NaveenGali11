@@ -4,7 +4,7 @@
 <h3 align="center">Find More about me at my <a href="http://naveengali.tech/">Portfolio</a></h3>
 <h3 align="center">On a Mission of Making 1000 Contributions</h3>
 
-Currently Searching resources to become a Java Full Stack Developer || Creating a CSS framework***
+Currently Searching resources to become a Java Full Stack Developer || Creating a CSS framework
 
 - 🔭 I’m currently working on Coding java in its Best way.
 
