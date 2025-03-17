@@ -40,26 +40,26 @@ Hello! I'm Naveen Gali, a proficient and passionate React Native and JavaScript 
 
 * Enhanced code quality and readability by applying best practices and standards, resulting in 25% higher performance and 10% fewer bugs.
 * Integrated REST APIs to support a React front-end, facilitating dynamic data updates and interactions.
-* Increased performance, readability, and scalability of a large-scale mobile app by 20% each by implementing Mobx-State-Tree for state management with React Native and TypeScript. [cite: 5, 6, 7]
+* Increased performance, readability, and scalability of a large-scale mobile app by 20% each by implementing Mobx-State-Tree for state management with React Native and TypeScript.
 
 ### Application Development Intern | Inventgrid, India | July 2021 - December 2022
 
-* Connected front-end applications and JSON REST APIs with React and Axios, facilitating smooth data transfer and enhanced user satisfaction. [cite: 8]
-* Resolved bugs and errors for a mobile Home Services app after release, with React Native, Redux and Firebase, boosting user experience and engagement by 50%. [cite: 9]
+* Connected front-end applications and JSON REST APIs with React and Axios, facilitating smooth data transfer and enhanced user satisfaction.
+* Resolved bugs and errors for a mobile Home Services app after release, with React Native, Redux and Firebase, boosting user experience and engagement by 50%.
 
 ## Projects
 
 ### Smart Homes E-Commerce Application | December 2024
 
-* Built a full-stack web application for a smart home retailer using React.js, Node.js, MySQL, and MongoDB, enabling online sales and customer management. [cite: 10, 11]
-* Engineered an e-commerce platform for a smart home retailer, encompassing user accounts, a searchable product catalog, a streamlined shopping cart, efficient order management, and integrated customer reviews. [cite: 11]
-* Integrated OpenAI and ElasticSearch to enable advanced features such as semantic product search and automated analysis of customer service tickets, enhancing user experience and streamlining support processes. [cite: 12]
+* Built a full-stack web application for a smart home retailer using React.js, Node.js, MySQL, and MongoDB, enabling online sales and customer management.
+* Engineered an e-commerce platform for a smart home retailer, encompassing user accounts, a searchable product catalog, a streamlined shopping cart, efficient order management, and integrated customer reviews.
+* Integrated OpenAI and ElasticSearch to enable advanced features such as semantic product search and automated analysis of customer service tickets, enhancing user experience and streamlining support processes. 
 
 ### Homvery | October 2021 - July 2022
 
-* Created and updated web and mobile applications for a Home Services app with React and React Native, overhauling performance and reliability by 40%. [cite: 13]
-* Streamlined development and deployment of a Home Services app with CI/CD, Swagger, and Strapi CMS, boosting user experience and engagement by 20%. [cite: 14]
-* Utilized Microsoft App Center to deliver Over-the-air updates and also detect the crashes and other important analytics. [cite: 15]
+* Created and updated web and mobile applications for a Home Services app with React and React Native, overhauling performance and reliability by 40%.
+* Streamlined development and deployment of a Home Services app with CI/CD, Swagger, and Strapi CMS, boosting user experience and engagement by 20%.
+* Utilized Microsoft App Center to deliver Over-the-air updates and also detect the crashes and other important analytics.
 
 ## Education
 
