@@ -2,74 +2,57 @@
 
 ## About Me
 
-Hello! I'm Naveen Gali, a proficient and passionate React Native and JavaScript developer with 2 years of hands-on experience in building engaging mobile experiences. I thrive on creating efficient, scalable, and user-friendly applications. My background includes developing solutions for e-commerce and home services, demonstrating my ability to adapt and deliver in diverse environments.
+I'm a founding engineer and IEEE-published researcher building AI-native infrastructure. I designed and shipped **D-GIX**, a production geospatial indexing engine over 3.55M places with 19ms latency (24x faster than Google Places API) and a 98.7% infra-cost reduction, and I architected the **Polyhistor Location Intelligence API** that powers it. I care about systems that are fast, cheap to run, and built for AI agents, not just human UIs.
+
+- 🔭 Currently building: [Polyhistor](https://thepolyhistor.com) — Location Intelligence API for AI Agents
+- 📄 Co-Author: D-GIX: Dynamic Geospatial Indexing (IEEE-published)
+- 🌍 Based in Washington, DC · Open to founding engineer roles (SF/NYC, in-person)
+- 📫 naveengali80@gmail.com · [LinkedIn](https://www.linkedin.com/in/naveen-gali/)
+
+## Featured Work
+
+### 🌐 D-GIX — Dynamic Geospatial Indexing
+IEEE-published, 3-layer geospatial intelligence stack (semantic embeddings, temporal state machines, H3-based differential privacy) over 3.55M POIs.
+- **Recall@10 = 0.97**, up from 0.20 baseline, via sequential ablation across V/T/Tribe layers
+- **19ms warm-cache latency** (P95 = 23ms) vs. 464–697ms for Google Places API, 0% failure rate under 4,400+ concurrent requests
+- Solved HNSW build-memory constraints for a 10.4GB vector graph via Docker/Postgres tuning
+- Implemented Laplace-mechanism differential privacy (ε = 1.0) over H3 hex cells for crowd-density signals
+
+### 📍 Polyhistor — Location Intelligence API for AI Agents
+Production contextual search engine for autonomous AI agents combining semantic vibe search, real-time temporal routing, and privacy-preserving crowd data.
+- **98.7% lower infra cost** vs. Google Places API ($297/mo vs. $22,880/mo at 1M requests) via self-hosted Postgres + pgvector + PostGIS
+- Designed the Opportunity Cost Engine — a unified scoring function combining routing cost, crowd density, and temporal state
+- Built demo/heatmap UI with Leaflet + CARTO across 8 cities and 7 "tribe" profiles
+
+### ✈️ LLM-Driven Itinerary Planner (React Native)
+- Cut user trip-planning time by **40%** using LLM-generated itineraries
+- Scaled to 2,000+ concurrent users on AWS (Lambda, S3, DynamoDB)
+- Built WatermelonDB offline-first sync with 100% data integrity in zero-connectivity environments
 
 ## Skills
 
-### Technologies
+**Geospatial & Vector:** PostgreSQL · PostGIS · pgvector · HNSW · DuckDB · H3 Hexagonal Indexing · Overture Maps · Leaflet · CARTO
+**AI/ML Infra:** Sentence-Transformers · PyTorch · Redis embedding cache · Differential Privacy (Laplace) · Semantic Search · RAG pipelines
+**Backend & Cloud:** Node.js · Python · Express · AWS (Lambda, S3, DynamoDB, EC2) · Docker · Kubernetes · Gunicorn · Kafka · Supabase · Redis
+**Frontend & Mobile:** React Native (Fabric/CLI/Expo) · React.js · TypeScript · Redux Toolkit · Tailwind CSS
+**DevOps & Data:** GitHub Actions CI/CD · Locust load testing · pgbench · Parquet · DuckDB streaming · WebSocket
 
-* <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-* <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-* <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native"/>
-* <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-* <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-* <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-* <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+## Experience
 
-### Other
+**Founding Engineer — Polyhistor Inc.** · *Oct 2025 – Present*
+Architected and shipped a location intelligence API purpose-built for autonomous AI agents; reduced infra cost by 98.7% and achieved 19ms latency at scale.
 
-* <img src="https://img.shields.io/badge/MS_Office-D83027?style=for-the-badge&logo=microsoft-office&logoColor=white" alt="MS Office"/>
-* <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code"/>
-* <img src="https://img.shields.io/badge/AWS_Amplify-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Amplify"/>
-* <img src="https://img.shields.io/badge/Agile-gray?style=for-the-badge&logo=agile&logoColor=white" alt="Agile"/>
-* REST APIs
-* Git
-* CI/CD
-* Swagger
-* Strapi CMS
-* Mobx-State-Tree
-* Redux
-* Firebase
-* Axios
-* OpenAI
-* ElasticSearch
+**Software Engineer, React Native — Mutual Mobile** · *Dec 2022 – Sept 2023*
+Led JS → TypeScript migration on a Fortune 500 client app (+25% performance, eliminated a class of runtime errors); reduced crash rates 15% via profiling and Redux optimization.
 
-## Work Experience
-
-### React Native Intern | Mutual Mobile, Hyderabad, India | December 2022 - September 2023
-
-* Enhanced code quality and readability by applying best practices and standards, resulting in 25% higher performance and 10% fewer bugs.
-* Integrated REST APIs to support a React front-end, facilitating dynamic data updates and interactions.
-* Increased performance, readability, and scalability of a large-scale mobile app by 20% each by implementing Mobx-State-Tree for state management with React Native and TypeScript.
-
-### Application Development Intern | Inventgrid, India | July 2021 - December 2022
-
-* Connected front-end applications and JSON REST APIs with React and Axios, facilitating smooth data transfer and enhanced user satisfaction.
-* Resolved bugs and errors for a mobile Home Services app after release, with React Native, Redux and Firebase, boosting user experience and engagement by 50%.
-
-## Projects
-
-### Smart Homes E-Commerce Application | December 2024
-
-* Built a full-stack web application for a smart home retailer using React.js, Node.js, MySQL, and MongoDB, enabling online sales and customer management.
-* Engineered an e-commerce platform for a smart home retailer, encompassing user accounts, a searchable product catalog, a streamlined shopping cart, efficient order management, and integrated customer reviews.
-* Integrated OpenAI and ElasticSearch to enable advanced features such as semantic product search and automated analysis of customer service tickets, enhancing user experience and streamlining support processes. 
-
-### Homvery | October 2021 - July 2022
-
-* Created and updated web and mobile applications for a Home Services app with React and React Native, overhauling performance and reliability by 40%.
-* Streamlined development and deployment of a Home Services app with CI/CD, Swagger, and Strapi CMS, boosting user experience and engagement by 20%.
-* Utilized Microsoft App Center to deliver Over-the-air updates and also detect the crashes and other important analytics.
+**Application Developer — Inventgrid** · *Jul 2021 – Dec 2022*
+Built core auth and dashboard modules that drove a 50% increase in user retention; cut initial load times 40% via async data-bridging patterns.
 
 ## Education
 
-* **Illinois Institute of Technology, Chicago, IL**
-    * Master of Science, Computer Science
-* **Bharath Institute of Higher Education and Research, Chennai, India**
-    * Bachelor of Technology, Computer Science
+- **M.S., Computer Science** — Illinois Institute of Technology, Chicago, IL
+- **B.S., Computer Science** — Bharath Institute of Higher Education and Research, Chennai, India
 
 ## Let's Connect
 
-* [LinkedIn](https://www.linkedin.com/in/naveen-gali/)
-
----
+[LinkedIn](https://www.linkedin.com/in/naveen-gali/) · [Polyhistor](https://thepolyhistor.com)
