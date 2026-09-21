@@ -5,7 +5,7 @@
 I'm a founding engineer and IEEE-published researcher building AI-native infrastructure. I designed and shipped **D-GIX**, a production geospatial indexing engine over 3.55M places with 19ms latency (24x faster than Google Places API) and a 98.7% infra-cost reduction, and I architected the **Polyhistor Location Intelligence API** that powers it. I care about systems that are fast, cheap to run, and built for AI agents, not just human UIs.
 
 - 🔭 Currently building: [Polyhistor](https://thepolyhistor.com) — Location Intelligence API for AI Agents
-- 📄 Co-Author: D-GIX: Dynamic Geospatial Indexing (IEEE-published)
+- 📄 D-GIX: Dynamic Geospatial Indexing
 - 🌍 Based in Washington, DC · Open to founding engineer roles (SF/NYC, in-person)
 - 📫 naveengali80@gmail.com · [LinkedIn](https://www.linkedin.com/in/naveen-gali/)
 
