@@ -1,58 +1,168 @@
-# Naveen Gali 👋
+![Naveen Gali — Full-stack engineering, backend systems, and applied AI](assets/profile-banner.svg)
 
-## About Me
+<div align="center">
 
-I'm a founding engineer and IEEE-published researcher building AI-native infrastructure. I designed and shipped **D-GIX**, a production geospatial indexing engine over 3.55M places with 19ms latency (24x faster than Google Places API) and a 98.7% infra-cost reduction, and I architected the **Polyhistor Location Intelligence API** that powers it. I care about systems that are fast, cheap to run, and built for AI agents, not just human UIs.
+<a href="https://www.linkedin.com/in/naveen-gali/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Let%27s_connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
+<a href="mailto:naveengali80@gmail.com"><img alt="Open to full-time engineering roles" src="https://img.shields.io/badge/Open_to-Full--time_roles-2dd4bf?style=for-the-badge&amp;labelColor=172c46" /></a>
+<a href="https://www.thepolyhistor.com/"><img alt="Polyhistor — location intelligence" src="https://img.shields.io/badge/Building-Polyhistor-38bdf8?style=for-the-badge&amp;labelColor=172c46" /></a>
 
-- 🔭 Currently building: [Polyhistor](https://thepolyhistor.com) — Location Intelligence API for AI Agents
-- 📄 D-GIX: Dynamic Geospatial Indexing
-- 🌍 Based in Washington, DC · Open to founding engineer roles (SF/NYC, in-person)
-- 📫 naveengali80@gmail.com · [LinkedIn](https://www.linkedin.com/in/naveen-gali/)
+</div>
 
-## Featured Work
+### Hi, I'm Naveen
 
-### 🌐 D-GIX — Dynamic Geospatial Indexing
-IEEE-published, 3-layer geospatial intelligence stack (semantic embeddings, temporal state machines, H3-based differential privacy) over 3.55M POIs.
-- **Recall@10 = 0.97**, up from 0.20 baseline, via sequential ablation across V/T/Tribe layers
-- **19ms warm-cache latency** (P95 = 23ms) vs. 464–697ms for Google Places API, 0% failure rate under 4,400+ concurrent requests
-- Solved HNSW build-memory constraints for a 10.4GB vector graph via Docker/Postgres tuning
-- Implemented Laplace-mechanism differential privacy (ε = 1.0) over H3 hex cells for crowd-density signals
+I'm a **full-stack engineer and technical lead** who enjoys turning customer problems into working products. My work spans React/Next.js interfaces, TypeScript and Python services, APIs, data pipelines, and cloud deployments.
 
-### 📍 Polyhistor — Location Intelligence API for AI Agents
-Production contextual search engine for autonomous AI agents combining semantic vibe search, real-time temporal routing, and privacy-preserving crowd data.
-- **98.7% lower infra cost** vs. Google Places API ($297/mo vs. $22,880/mo at 1M requests) via self-hosted Postgres + pgvector + PostGIS
-- Designed the Opportunity Cost Engine — a unified scoring function combining routing cost, crowd density, and temporal state
-- Built demo/heatmap UI with Leaflet + CARTO across 8 cities and 7 "tribe" profiles
+I'm looking for a **full-time product, full-stack, founding-engineer, or backend role on a small team**, bringing my founding-engineer experience at Polyhistor to a new product. Based in **Washington, DC**; open to remote work and relocation, including SF and NYC.
 
-### ✈️ LLM-Driven Itinerary Planner (React Native)
-- Cut user trip-planning time by **40%** using LLM-generated itineraries
-- Scaled to 2,000+ concurrent users on AWS (Lambda, S3, DynamoDB)
-- Built WatermelonDB offline-first sync with 100% data integrity in zero-connectivity environments
+---
 
-## Skills
+## Selected work
 
-**Geospatial & Vector:** PostgreSQL · PostGIS · pgvector · HNSW · DuckDB · H3 Hexagonal Indexing · Overture Maps · Leaflet · CARTO
-**AI/ML Infra:** Sentence-Transformers · PyTorch · Redis embedding cache · Differential Privacy (Laplace) · Semantic Search · RAG pipelines
-**Backend & Cloud:** Node.js · Python · Express · AWS (Lambda, S3, DynamoDB, EC2) · Docker · Kubernetes · Gunicorn · Kafka · Supabase · Redis
-**Frontend & Mobile:** React Native (Fabric/CLI/Expo) · React.js · TypeScript · Redux Toolkit · Tailwind CSS
-**DevOps & Data:** GitHub Actions CI/CD · Locust load testing · pgbench · Parquet · DuckDB streaming · WebSocket
+### Polyhistor — location intelligence from data to customer pilot
 
-## Experience
+My hands-on work spans the TypeScript/React pilot interfaces, Next.js website, backend services, geospatial database architecture, ingestion pipeline, and APIs.
 
-**Founding Engineer — Polyhistor Inc.** · *Oct 2025 – Present*
-Architected and shipped a location intelligence API purpose-built for autonomous AI agents; reduced infra cost by 98.7% and achieved 19ms latency at scale.
+- Shipped neighborhood-insight pages and walkability, greenery, and noise-scoring APIs for **Inhotel Inc.'s European-city pilot**.
+- Built custom **Mapbox** modules and **D3** visualizations for location insights.
+- Built a **DuckDB** pipeline over **3.55M+ Overture Maps places**, avoiding the memory failures of the earlier Pandas approach.
+- Combined **PostgreSQL/PostGIS, pgvector, Sentence-Transformers, and HNSW** in D-GIX for spatial and semantic search; added Redis embedding caching, persistent HTTP connections, and batch lookups.
 
-**Software Engineer, React Native — Mutual Mobile** · *Dec 2022 – Sept 2023*
-Led JS → TypeScript migration on a Fortune 500 client app (+25% performance, eliminated a class of runtime errors); reduced crash rates 15% via profiling and Redux optimization.
+[Product](https://www.thepolyhistor.com/) · [Website source](https://github.com/Polyhistor-Inc/Polyhistor-Website)
 
-**Application Developer — Inventgrid** · *Jul 2021 – Dec 2022*
-Built core auth and dashboard modules that drove a 50% increase in user retention; cut initial load times 40% via async data-bridging patterns.
+<details>
+<summary><strong>D-GIX benchmark results and conditions</strong></summary>
 
-## Education
+| Result | Evaluation context |
+| --- | --- |
+| **0.97 Recall@10** | 70 curated semantic queries; category-based relevance |
+| **19ms median warm-cache search** | Repeat queries with embeddings cached in Redis |
+| **116ms median first-time search** | Query embedding uncached; model already loaded |
+| **4,414 requests, zero failures** | Separate 100-user, 60-second test on a read-heavy cached endpoint |
+| **98.7% lower modeled cost vs. Google Places** | Pricing scenario of one million monthly requests |
 
-- **M.S., Computer Science** — Illinois Institute of Technology, Chicago, IL
-- **B.S., Computer Science** — Bharath Institute of Higher Education and Research, Chennai, India
+These are benchmark and modeled-cost results. The cached-endpoint test does not establish zero failures across the entire API. The current density signal is inferred from place attributes.
 
-## Let's Connect
+</details>
 
-[LinkedIn](https://www.linkedin.com/in/naveen-gali/) · [Polyhistor](https://thepolyhistor.com)
+
+## Projects you can explore
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔬 [STAIR retrieval reproduction](https://github.com/NaveenGali11/stair-rag-reproduction)
+
+An independent, **one-book retrieval study** comparing BM25, dense retrieval, DSI, and structure-aware generative retrieval.
+
+Frozen metrics, an executed notebook, reproduction scripts, and documented limitations.
+
+**Python · Retrieval evaluation · Reproducibility**
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ [ShipSolid](https://github.com/NaveenGali11/ShipSolid)
+
+A **code-audit CLI** that combines Semgrep findings, Claude analysis, and PDF reporting.
+
+Turns technical scan findings into reports that founders and engineering teams can review.
+
+**TypeScript · Node.js · Applied AI**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📝 [ResumeForge](https://github.com/NaveenGali11/Resumeforge)
+
+A **browser-based LaTeX editor** with a PDF compilation service and heuristic resume/JD analysis.
+
+A React/TypeScript interface, Express API, and local Docker setup.
+
+**React · TypeScript · Node.js · Docker**
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 [Polyhistor website](https://github.com/Polyhistor-Inc/Polyhistor-Website)
+
+The **Next.js website** for Polyhistor's location-intelligence platform.
+
+Connects the platform's technical capabilities to a public product experience.
+
+**Next.js · TypeScript · Product delivery**
+
+</td>
+</tr>
+</table>
+
+Also available: [the earlier Polyhistor consumer-app backend](https://github.com/NaveenGali11/polyhistor-backend), a public fork using Node.js, Express, TypeScript, PostgreSQL/PostGIS, JWT, and Socket.IO. It is separate from the D-GIX search architecture.
+
+## Stack I work with
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,py,postgres,redis,aws,docker,githubactions&amp;theme=dark" alt="React, Next.js, TypeScript, Node.js, Python, PostgreSQL, Redis, AWS, Docker, and GitHub Actions" />
+</p>
+
+- **Frontend & visualization:** React, Next.js, React Native, TypeScript, JavaScript, HTML5, CSS, Mapbox, D3
+- **Backend & APIs:** Node.js, Express, Python, Django, Java, Spring Boot, REST, GraphQL, WebSockets
+- **Data & search:** PostgreSQL, PostGIS, pgvector, MongoDB, Redis, DuckDB, H3, embeddings, HNSW
+- **Cloud & quality:** AWS, Docker, Kubernetes, Terraform, GitHub Actions, Jest, Playwright, Storybook
+- **AI & developer tools:** LLM integration, RAG, Sentence-Transformers, Cursor, Claude Code, Codex
+
+<details>
+<summary><strong>Under the hood: the Polyhistor search stack</strong></summary>
+
+The search system combines semantic retrieval with spatial filtering. Redis caches query embeddings, while PostgreSQL brings relational, spatial, and vector data together.
+
+```mermaid
+flowchart LR
+    Client["Web interfaces / API clients"] --> API["Node.js / TypeScript API"]
+    API --> Cache["Redis embedding cache"]
+    API --> Embeddings["Python embedding service"]
+    API --> DB["PostgreSQL + PostGIS + pgvector"]
+    Source["Overture Maps places"] --> Ingest["DuckDB ingestion"]
+    Ingest --> DB
+    style API fill:#143b45,stroke:#2dd4bf,color:#ffffff
+    style DB fill:#172c46,stroke:#38bdf8,color:#ffffff
+    style Embeddings fill:#272f4d,stroke:#a78bfa,color:#ffffff
+```
+
+</details>
+
+<details>
+<summary><strong>Experience & education</strong></summary>
+
+### Experience
+
+**Polyhistor Inc. — Software Engineer & Technical Lead**  
+*Jan 2026–Present*  
+Lead platform architecture and hands-on full-stack delivery with a small engineering team; helped lead the pivot from a consumer travel product to an enterprise geospatial API and customer pilot.
+
+**Rebecca Everlene — Software Development Engineer II**  
+*Jan 2025–Jan 2026*  
+Led Landmarks from concept to public beta in four months while coordinating 12 engineers across React Native and Node.js. Built a Storybook component library that cut feature delivery time by 30%, and established CI/CD and review standards.
+
+**Grid Dynamics — Software Engineer**  
+*Dec 2022–Sep 2023*  
+Built Java/Spring Boot services processing 50K+ daily transactions at 99.9% uptime and a GraphQL layer that improved screen load times by 30%. Led a 150K+ line TypeScript migration and reduced Android crash rates by 15%.
+
+**IG Defence — Software Engineer**  
+*Jul 2020–Dec 2022*  
+Rebuilt OAuth/JWT authentication and dashboard flows across 10,000+ business accounts, increasing retention by 50%. Built WebSocket/Redis notifications that reduced alert latency to under two seconds.
+
+
+### Education
+
+**M.S. in Computer Science**, Illinois Institute of Technology — May 2025  
+**Bachelor's degree in Computer Science**, Bharath Institute of Higher Education — 2023
+
+</details>
+
+---
+
+**Let's build something useful.**  
+[LinkedIn](https://www.linkedin.com/in/naveen-gali/) · [Email](mailto:naveengali80@gmail.com) · [Polyhistor](https://www.thepolyhistor.com/)
+
