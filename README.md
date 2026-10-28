@@ -1,168 +1,139 @@
-![Naveen Gali — Full-stack engineering, backend systems, and applied AI](assets/profile-banner.svg)
+![Naveen Gali — Full-stack engineering, data systems, and applied AI](assets/profile-banner.svg)
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/naveen-gali/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Let%27s_connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/naveen-gali/"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/LinkedIn-Let%27s_connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
 <a href="mailto:naveengali80@gmail.com"><img alt="Open to full-time engineering roles" src="https://img.shields.io/badge/Open_to-Full--time_roles-2dd4bf?style=for-the-badge&amp;labelColor=172c46" /></a>
-<a href="https://www.thepolyhistor.com/"><img alt="Polyhistor — location intelligence" src="https://img.shields.io/badge/Building-Polyhistor-38bdf8?style=for-the-badge&amp;labelColor=172c46" /></a>
+<a href="https://github.com/DataStrategyLab/privilab"><img alt="PriviLAB engineering and maintenance contributor" src="https://img.shields.io/badge/Open_source-PriviLAB-a78bfa?style=for-the-badge&amp;labelColor=172c46" /></a>
+
+**[Recent contributions](#open-source--privilab) · [Polyhistor](#building--polyhistor) · [Projects](#projects-to-explore) · [Stack](#tools-i-work-with)**
 
 </div>
 
-### Hi, I'm Naveen
+## Hi, I'm Naveen
 
-I'm a **full-stack engineer and technical lead** who enjoys turning customer problems into working products. My work spans React/Next.js interfaces, TypeScript and Python services, APIs, data pipelines, and cloud deployments.
+I'm a **software engineer and technical lead** building across product interfaces, backend services, data pipelines, and applied AI. I enjoy owning the path from a customer problem to software people can use—and understanding what happens when it breaks.
 
-I'm looking for a **full-time product, full-stack, founding-engineer, or backend role on a small team**, bringing my founding-engineer experience at Polyhistor to a new product. Based in **Washington, DC**; open to remote work and relocation, including SF and NYC.
+Currently building **Polyhistor's location-intelligence platform** with a small team, working on **MatterGate**, and contributing engineering and maintenance to **PriviLAB** at Data Strategy Lab.
 
----
+**Open to full-time product, full-stack, backend, and founding-engineer roles.** Based in Washington, DC; open to remote work and relocation, including SF and NYC.
 
-## Selected work
+## Open source · PriviLAB
 
-### Polyhistor — location intelligence from data to customer pilot
+### [Controlled, permission-aware AI workflows](https://github.com/DataStrategyLab/privilab)
 
-My hands-on work spans the TypeScript/React pilot interfaces, Next.js website, backend services, geospatial database architecture, ingestion pipeline, and APIs.
+**Engineering & maintenance contributor · Listed CODEOWNER**  
+**Python · FastAPI · SQLite/FTS5 · Pytest · GitHub Actions**
 
-- Shipped neighborhood-insight pages and walkability, greenery, and noise-scoring APIs for **Inhotel Inc.'s European-city pilot**.
-- Built custom **Mapbox** modules and **D3** visualizations for location insights.
-- Built a **DuckDB** pipeline over **3.55M+ Overture Maps places**, avoiding the memory failures of the earlier Pandas approach.
-- Combined **PostgreSQL/PostGIS, pgvector, Sentence-Transformers, and HNSW** in D-GIX for spatial and semantic search; added Redis embedding caching, persistent HTTP connections, and batch lookups.
+PriviLAB is an open-source reference implementation for legal-AI workflows: permissions before retrieval, deterministic evaluation gates, separate human-review decisions, and metadata-oriented provenance.
 
-[Product](https://www.thepolyhistor.com/) · [Website source](https://github.com/Polyhistor-Inc/Polyhistor-Website)
+My recent merged contributions include:
 
-<details>
-<summary><strong>D-GIX benchmark results and conditions</strong></summary>
+- **Fail-closed SDK execution:** restricted the default live client before credential or HTTP-client construction, with regression coverage and aligned setup guidance. [PR #50](https://github.com/DataStrategyLab/privilab/pull/50)
+- **Dependency maintenance:** updated the affected Pytest dependency and lockfile to a patched release, with verification and license metadata updates. [PR #45](https://github.com/DataStrategyLab/privilab/pull/45)
+- **Contributor tooling:** added repository-contract checks and made public contribution workflows self-contained. [PR #44](https://github.com/DataStrategyLab/privilab/pull/44)
 
-| Result | Evaluation context |
-| --- | --- |
-| **0.97 Recall@10** | 70 curated semantic queries; category-based relevance |
-| **19ms median warm-cache search** | Repeat queries with embeddings cached in Redis |
-| **116ms median first-time search** | Query embedding uncached; model already loaded |
-| **4,414 requests, zero failures** | Separate 100-user, 60-second test on a read-heavy cached endpoint |
-| **98.7% lower modeled cost vs. Google Places** | Pricing scenario of one million monthly requests |
+**Scope:** source-only Developer Preview using synthetic scenarios and fixture outputs; default live-model execution is disabled. See the project's current [release status](https://github.com/DataStrategyLab/privilab/blob/main/docs/release-status.md).
 
-These are benchmark and modeled-cost results. The cached-endpoint test does not establish zero failures across the entire API. The current density signal is inferred from place attributes.
+[Source](https://github.com/DataStrategyLab/privilab) · [My pull requests](https://github.com/DataStrategyLab/privilab/pulls?q=is%3Apr+author%3ANaveenGali11) · [Contributor credits](https://github.com/DataStrategyLab/privilab/blob/main/CONTRIBUTORS.md)
 
-</details>
+## Building · Polyhistor
 
+### Location intelligence, from ingestion to customer experience
 
-## Projects you can explore
+At **Polyhistor Inc.**, I'm a **Software Engineer & Technical Lead** working alongside a small engineering team. My hands-on work spans React/TypeScript interfaces, the Next.js website, backend services, database architecture, ingestion, and APIs.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- Built neighborhood-insight pages and **walkability, greenery, and noise-scoring APIs** for **Inhotel Inc.'s European-city pilot**.
+- Built a **DuckDB ingestion pipeline over 3.55M+ Overture Maps places**, replacing a Pandas workflow that hit memory limits.
+- Developed spatial and semantic search with **PostgreSQL/PostGIS, pgvector, Sentence-Transformers, and HNSW**, including query optimization and Redis embedding caching.
+- Built **D3 dashboards and custom Mapbox modules** to make location data useful in product interfaces.
 
-### 🔬 [STAIR retrieval reproduction](https://github.com/NaveenGali11/stair-rag-reproduction)
-
-An independent, **one-book retrieval study** comparing BM25, dense retrieval, DSI, and structure-aware generative retrieval.
-
-Frozen metrics, an executed notebook, reproduction scripts, and documented limitations.
-
-**Python · Retrieval evaluation · Reproducibility**
-
-</td>
-<td width="50%" valign="top">
-
-### 🛠️ [ShipSolid](https://github.com/NaveenGali11/ShipSolid)
-
-A **code-audit CLI** that combines Semgrep findings, Claude analysis, and PDF reporting.
-
-Turns technical scan findings into reports that founders and engineering teams can review.
-
-**TypeScript · Node.js · Applied AI**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📝 [ResumeForge](https://github.com/NaveenGali11/Resumeforge)
-
-A **browser-based LaTeX editor** with a PDF compilation service and heuristic resume/JD analysis.
-
-A React/TypeScript interface, Express API, and local Docker setup.
-
-**React · TypeScript · Node.js · Docker**
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [Polyhistor website](https://github.com/Polyhistor-Inc/Polyhistor-Website)
-
-The **Next.js website** for Polyhistor's location-intelligence platform.
-
-Connects the platform's technical capabilities to a public product experience.
-
-**Next.js · TypeScript · Product delivery**
-
-</td>
-</tr>
-</table>
-
-Also available: [the earlier Polyhistor consumer-app backend](https://github.com/NaveenGali11/polyhistor-backend), a public fork using Node.js, Express, TypeScript, PostgreSQL/PostGIS, JWT, and Socket.IO. It is separate from the D-GIX search architecture.
-
-## Stack I work with
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,py,postgres,redis,aws,docker,githubactions&amp;theme=dark" alt="React, Next.js, TypeScript, Node.js, Python, PostgreSQL, Redis, AWS, Docker, and GitHub Actions" />
-</p>
-
-- **Frontend & visualization:** React, Next.js, React Native, TypeScript, JavaScript, HTML5, CSS, Mapbox, D3
-- **Backend & APIs:** Node.js, Express, Python, Django, Java, Spring Boot, REST, GraphQL, WebSockets
-- **Data & search:** PostgreSQL, PostGIS, pgvector, MongoDB, Redis, DuckDB, H3, embeddings, HNSW
-- **Cloud & quality:** AWS, Docker, Kubernetes, Terraform, GitHub Actions, Jest, Playwright, Storybook
-- **AI & developer tools:** LLM integration, RAG, Sentence-Transformers, Cursor, Claude Code, Codex
+[Product](https://www.thepolyhistor.com/) · [Next.js website source](https://github.com/Polyhistor-Inc/Polyhistor-Website)
 
 <details>
-<summary><strong>Under the hood: the Polyhistor search stack</strong></summary>
-
-The search system combines semantic retrieval with spatial filtering. Redis caches query embeddings, while PostgreSQL brings relational, spatial, and vector data together.
+<summary><strong>Explore the search architecture</strong></summary>
 
 ```mermaid
 flowchart LR
+    Source["Overture Maps places"] --> Ingest["DuckDB ingestion"]
+    Ingest --> DB["PostgreSQL · PostGIS · pgvector"]
     Client["Web interfaces / API clients"] --> API["Node.js / TypeScript API"]
     API --> Cache["Redis embedding cache"]
-    API --> Embeddings["Python embedding service"]
-    API --> DB["PostgreSQL + PostGIS + pgvector"]
-    Source["Overture Maps places"] --> Ingest["DuckDB ingestion"]
-    Ingest --> DB
+    API --> Embed["Python embedding service"]
+    API --> DB
     style API fill:#143b45,stroke:#2dd4bf,color:#ffffff
     style DB fill:#172c46,stroke:#38bdf8,color:#ffffff
-    style Embeddings fill:#272f4d,stroke:#a78bfa,color:#ffffff
+    style Embed fill:#272f4d,stroke:#a78bfa,color:#ffffff
 ```
 
 </details>
 
 <details>
-<summary><strong>Experience & education</strong></summary>
+<summary><strong>D-GIX benchmarks—with evaluation conditions</strong></summary>
 
-### Experience
+| Result | Conditions |
+| --- | --- |
+| **0.97 Recall@10** | 70 curated semantic queries; category-based relevance |
+| **19ms median repeat-query search** | Query embeddings already cached in Redis |
+| **116ms median first-time search** | Query embedding uncached; embedding model already loaded |
+| **4,414 requests; zero failures** | Separate 100-user, 60-second test on a read-heavy cached endpoint |
+| **98.7% lower modeled cost vs. Google Places** | Pricing scenario of one million monthly requests |
 
-**Polyhistor Inc. — Software Engineer & Technical Lead**  
-*Jan 2026–Present*  
-Lead platform architecture and hands-on full-stack delivery with a small engineering team; helped lead the pivot from a consumer travel product to an enterprise geospatial API and customer pilot.
+These describe the specified benchmarks and a modeled cost scenario. The density signal is inferred from place attributes; the load test covers the cached endpoint.
 
-**Rebecca Everlene — Software Development Engineer II**  
-*Jan 2025–Jan 2026*  
-Led Landmarks from concept to public beta in four months while coordinating 12 engineers across React Native and Node.js. Built a Storybook component library that cut feature delivery time by 30%, and established CI/CD and review standards.
+</details>
 
-**Grid Dynamics — Software Engineer**  
-*Dec 2022–Sep 2023*  
-Built Java/Spring Boot services processing 50K+ daily transactions at 99.9% uptime and a GraphQL layer that improved screen load times by 30%. Led a 150K+ line TypeScript migration and reduced Android crash rates by 15%.
+## Projects to explore
 
-**IG Defence — Software Engineer**  
-*Jul 2020–Dec 2022*  
-Rebuilt OAuth/JWT authentication and dashboard flows across 10,000+ business accounts, increasing retention by 50%. Built WebSocket/Redis notifications that reduced alert latency to under two seconds.
+| Project | What to inspect | Built with |
+| --- | --- | --- |
+| **[MatterGate](https://github.com/NaveenGali11/MatterGate)** | Permissioned legal/privacy research with NVIDIA Nemotron on Nebius Token Factory, scoped evidence, structural checks, human review, and traceable run receipts. Adapts selected [PriviLAB](https://github.com/DataStrategyLab/privilab) source with attribution. | Python · FastAPI · Pydantic · SQLite/FTS5 |
+| **[STAIR retrieval reproduction](https://github.com/NaveenGali11/stair-rag-reproduction)** | Independent one-book comparison of BM25, dense retrieval, DSI, and STAIR, with frozen results, an executed notebook, and reproducibility scripts. | Python · Retrieval evaluation · LoRA training |
+| **[ShipSolid](https://github.com/NaveenGali11/ShipSolid)** | A code-audit CLI combining Semgrep findings, Claude analysis, and PDF reports. [Example report](https://github.com/NaveenGali11/ShipSolid/blob/main/examples/demo-report.pdf). | TypeScript · Node.js · Semgrep · Claude API |
+| **[ResumeForge](https://github.com/NaveenGali11/Resumeforge)** | A browser-based LaTeX editor with a PDF compilation service, project management, and heuristic resume/JD analysis. | React · TypeScript · Express · MongoDB · Redis · Docker |
 
+<details>
+<summary><strong>Research finding: when document hierarchy helps—and when it hurts</strong></summary>
 
-### Education
+In my independent STAIR reproduction, **BM25 was the strongest retriever** on the frozen, single-textbook test set. STAIR improved over DSI on depth-2 sections but performed worse on deeper leaves and in aggregate.
 
-**M.S. in Computer Science**, Illinois Institute of Technology — May 2025  
-**Bachelor's degree in Computer Science**, Bharath Institute of Higher Education — 2023
+The useful result is the boundary: hierarchy can help, but a longer generated path can also make retrieval harder. The repository documents the split, training setup, metrics, and limitations.
+
+[Results](https://github.com/NaveenGali11/stair-rag-reproduction/blob/main/RESULTS.md) · [Executed notebook](https://github.com/NaveenGali11/stair-rag-reproduction/blob/main/notebooks/whole_child_results.ipynb) · [Reproduction guide](https://github.com/NaveenGali11/stair-rag-reproduction/blob/main/docs/REPRODUCING.md)
+
+</details>
+
+## Tools I work with
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,py,postgres,redis,aws,docker,githubactions&amp;theme=dark" alt="React, Next.js, TypeScript, Node.js, Python, PostgreSQL, Redis, AWS, Docker, GitHub Actions" />
+</p>
+
+- **Product & visualization:** React, Next.js, React Native, TypeScript, JavaScript, HTML5, CSS, D3, Mapbox
+- **Backend & APIs:** Python, FastAPI, Django, Node.js, Express, Java, Spring Boot, REST, GraphQL, WebSockets
+- **Data & retrieval:** PostgreSQL, PostGIS, pgvector, SQLite/FTS5, MongoDB, Redis, DuckDB, H3, Sentence-Transformers, HNSW
+- **Cloud & delivery:** AWS, Docker, Kubernetes, Terraform, GitHub Actions, CloudWatch, Datadog
+- **Quality & AI development:** Pytest, Jest, Playwright, Storybook, retrieval evaluation, LLM integration, Cursor, Claude Code, Codex
+
+<details>
+<summary><strong>Earlier work & education</strong></summary>
+
+**Rebecca Everlene — Software Development Engineer II** · Jan 2025–Jan 2026  
+Coordinated 12 engineers to take Landmarks from concept to public beta in four months. Built a React Native/Storybook component library that cut feature delivery time by 30%, and established automated testing and CI/CD.
+
+**Grid Dynamics — Software Engineer** · Dec 2022–Sep 2023  
+Built AWS-hosted Java/Spring Boot services processing 50K+ daily transactions at 99.9% uptime, plus a GraphQL layer that reduced over-fetching by 40% and improved screen load times by 30%.
+
+**IG Defence — Software Engineer** · Jul 2020–Dec 2022  
+Rebuilt OAuth/JWT authentication and dashboard flows across 10,000+ business accounts. Built WebSocket/Redis notifications that reduced alert latency from minutes to under two seconds.
+
+**M.S. in Computer Science**, Illinois Institute of Technology · May 2025  
+**Bachelor's degree in Computer Science**, Bharath Institute of Higher Education · 2023
 
 </details>
 
 ---
 
-**Let's build something useful.**  
-[LinkedIn](https://www.linkedin.com/in/naveen-gali/) · [Email](mailto:naveengali80@gmail.com) · [Polyhistor](https://www.thepolyhistor.com/)
+**Have a product, data, or backend problem worth owning?**  
+[Let's connect](https://www.linkedin.com/in/naveen-gali/) · [Email me](mailto:naveengali80@gmail.com) · [Explore Polyhistor](https://www.thepolyhistor.com/)
 
